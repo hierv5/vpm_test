@@ -1,9 +1,8 @@
 {
   "name": "com.hierv5.vpm-test",
-  "displayName": "com.hierv5.vpm-test",
-  "version": "0.0.1",
+  "displayName": "Hierv5 VPM Test",
+  "version": "0.0.2",
   "description": "Describe this Package",
-  "dependencies": {},
   "gitDependencies": {},
   "vpmDependencies": {},
   "author": {
