@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/hierv5/Editor/AutoFbxExporter/AutoFbxExporter.uss?fileID=7433441132597879392&amp;guid=3287bcad0ecbbb741a812502b0eee95d&amp;type=3#AutoFbxExporter" />
+    <ui:GroupBox text="Blender file tracking settings" name="Basic">
+        <ui:TextField picking-mode="Ignore" label="Input(.blend)" name="InputText" readonly="true" />
+        <ui:Button text="Select input file" parse-escape-sequences="true" display-tooltip-when-elided="true" name="InputSelect" />
+        <ui:TextField picking-mode="Ignore" label="Output(.fbx)" name="OutputText" readonly="true" />
+        <ui:Button text="Select output file" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OutputSelect" />
+        <ui:TextField picking-mode="Ignore" label="Text Field" readonly="true" name="ScriptText" />
+        <ui:Button text="Select export script" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ScriptSelect" />
+        <ui:Button text="Start Tracking" parse-escape-sequences="true" display-tooltip-when-elided="true" view-data-key="trackingButton" name="trackingButton" />
+    </ui:GroupBox>
+    <ui:GroupBox name="Options">
+        <ui:TextField picking-mode="Ignore" label="Collection Name (optional)" name="CollectionNameText" />
+    </ui:GroupBox>
+</ui:UXML>

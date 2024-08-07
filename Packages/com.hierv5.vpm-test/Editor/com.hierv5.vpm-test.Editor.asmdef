@@ -1,0 +1,16 @@
+{
+    "name": "com.hierv5.vpm-test.Editor",
+    "rootNamespace": "Hierv5Tools",
+    "references": [
+        "com.hierv5.vpm-test"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

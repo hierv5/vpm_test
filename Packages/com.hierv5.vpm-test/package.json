@@ -1,0 +1,15 @@
+{
+  "name": "com.hierv5.vpm-test",
+  "displayName": "Hierv5 VPM Test",
+  "version": "0.0.1",
+  "description": "Describe this Package",
+  "gitDependencies": {},
+  "vpmDependencies": {},
+  "author": {
+    "name": "hierv5",
+    "email": "hierv5@outlook.jp"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "C:\\Users\\hierv5\\source\\repos\\vpm_test\\Packages\\com.hierv5.vpm-test"
+}
